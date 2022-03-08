@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div class="row">
+            <button id="7" onclick="press('7','display')">7</button>
+            <button id="8" onclick="press('8','display')">8</button>
+            <button id="9" onclick="press('9','display')">9</button>
+            <button id="divider" class="operator" onclick="setOP('divider','display')">÷</button>
+        </div>
+        <div class="row">
+            <button id="4" onclick="press('4','display')">4</button>
+            <button id="5" onclick="press('5','display')">5</button>
+            <button id="6" onclick="press('6','display')">6</button>
+            <button id="multiplication" class="operator" onclick="setOP('multiplication','display')">×</button>
+        </div>
+        <div class="row">
+            <button id="1" onclick="press('1','display')">1</button>
+            <button id="2" onclick="press('2','display')">2</button>
+            <button id="3" onclick="press('3','display')">3</button>
+            <button id="minus" class="operator" onclick="setOP('minus','display')">−</button>
+        </div>
+        <div class="row">
+            <button id="clear" onclick="clr('display')">C</button>
+            <button id="0" onclick="press('0','display')">0</button>
+            <button id="." onclick="press('.','display')">.</button>
+            <button id="plus" class="operator" onclick="setOP('plus','display')">+</button>
+        </div>
+        <div class="row">
+            <button id="equals" onclick="calculate('display')">=</button>
+        </div>
+    </div>
+    <script src="JS.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* *{
+    outline:  red solid 2px;} */
+
+.header{
+    margin: 0 auto;
+    font-size: 30px ;
+    background-color: #cccccc;
+    width: 80%;
+    height: 10%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Search{
+    width: 30%;
+}
+
+.Log{
+    width: 7%;
+    background-color: #2b78e4;
+    border-color: black;
+    box-shadow: 2px 2px black;
+    color: white;
+}
+.Box1{
+    border:#2b78e4 solid;
+    border-color: black;
+    margin: 5% auto;
+    width: 400px;
+    display: flex;
+    border-color: 2px black;
+    padding: 10px;
+}
+.Box2{
+    border:#2b78e4 solid;
+    border-color: black;
+    margin: 5% auto;
+    width: 400px;
+    display: flex;
+    padding: 10px;
+}
+.space{
+    margin: 6px;
+}
+p{
+    font-size: larger;
+}
+.Vbox1{
+    
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Like1{
+    background-color: #ffd966;
+    width: 80%;
+    height: 30px;
+    margin: 5%;
+    border-color: black;
+    box-shadow: 2px 2px black;
+}
+.Like2{
+    background-color: #ffd966;
+    width: 80%;
+    height: 30px;
+    margin: 5%;
+    border-color: black;
+    box-shadow: 2px 2px black;
+}
+.Vbox2{
+    flex:2;
+margin: auto;
+font-size: 16px;
+}
+
+.Box3{
+    margin:0 auto;
+    border: 2px solid;
+    border-color: black;
+    width: 180px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Definition{
+    background-color: #93c47d;
+    width: 80%;
+    height: 30px;
+    margin: 5%;
+    border-color: black;
+    box-shadow: 2px 2px black;
+}
+.Box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    }
