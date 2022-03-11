@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>DojoWeather</h1><a href="#" onclick="alertfunction()">Burbank</a><a href="#" onclick="alertfunction()">Chicago</a><a href="#" onclick="alertfunction()">Dallas</a>
+        </header>
+        <nav>
+            <div class="NavTop">
+                <h2>San Jose</h2>
+                <p>show temperature in 
+                    <select onchange="ChangeT()" name="temperature" id="temperature">
+                    <option>C</option>
+                    <option>F</option>
+                </select></p> 
+            </div>
+            <div class="NavMid">
+                <div class="Days">
+                    <h1>Today</h1>
+                    <img src="some_rain.png" alt="rain">
+                    <p>some rain</p>
+                    <h2><span  id= "Number" class="max">24°</span><span id= "Number" class="min">18°</span></h2>
+                </div>
+                <div class="Days">
+                    <h1>Tomorrow</h1>
+                    <img src="some_sun.png" alt="rain">
+                    <p>some sun</p>
+                    <h2><span id= "Number" class="max">27°</span><span id= "Number" class="min">19°</span></h2>
+                </div>
+                <div class="Days">
+                    <h1>Friday</h1>
+                    <img src="some_clouds.png" alt="rain">
+                    <p>some clouds</p>
+                    <h2><span id= "Number" class="max">21°</span><span id= "Number" class="min">16°</span></h2>
+                </div>
+                
+                <div class="Days">
+                    <h1>Saturday</h1>
+                    <img src="some_sun.png" alt="rain">
+                    <p>some sun</p>
+                    <h2><span id= "Number" class="max">26°</span><span id= "Number" class="min">21°</span></h2>
+                </div>
+            </div>
+        </nav>
+        <footer class="footer">
+            <img src="cookie.png" alt="cookie">
+            <div class="footerText">
+                <h1>Stop! Cookie time</h1>
+                <p>we use cookies (sadly not the edible ones) to personalize content and ads, 
+                    to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <input class="Accept" onclick="RemoveCookie()" type="button" value="I Accept">
+        </footer>
+
+    </main>
+    <script src="Js.js"></script>
+</body>
+</html>

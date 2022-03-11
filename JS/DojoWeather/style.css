@@ -1,0 +1,81 @@
+header{
+    background-color: #9fc5f8;
+    
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    color: white;
+}
+header a{
+    color: white;
+    font-size: x-large;
+    text-decoration:none;
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+}
+.NavTop{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavMid{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.Days{
+    width: 150px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+}
+.Days h2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.max{
+    color: #d0322f;
+}
+.min{
+    color: #73a3e7;
+}
+footer{
+    background-color: #eeeeee;
+    width: 70%;
+    border: 2px black solid;
+    position: fixed;
+    margin:0 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.Accept{
+
+    background-color: #9fc5f8;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+    width: 90px;
+    
+}
